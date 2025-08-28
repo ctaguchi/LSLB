@@ -1,0 +1,2 @@
+You will be given an English sentence, and your task is to extract named entities.
+The entity types are the following: Person, PersonType, Location, Organization, Event, Product, Skill, Address, PhoneNumber, Email, URL, IP, DateTime, Quantity.

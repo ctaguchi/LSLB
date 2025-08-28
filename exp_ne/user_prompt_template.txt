@@ -1,0 +1,30 @@
+Please output the extract named entities concatenated by whitespace.
+
+For example,
+**Input:** On Sunday, May 4, in Peru's Pataz province in the northern Department of La Libertad region, near one of Peru’s largest gold mines, police has found bodies of thirteen security guards who were kidnapped on Saturday, April 26, allegedly by individuals involved in illegal mining.
+**Output:** Sunday May 4 Peru Pataz province Department of La Libertad region Peru Saturday April 26
+
+**Input:** The security guards had been employed by private security firm R&R staff, a security company that serves Libmar, an artisanal miner operating on contract with the mining company Poderosa.
+**Output:** R&R Libmar Poderosa
+
+**Input:** On Friday, May 2, the gold mining company, named La Poderosa ("Powerful" in Spanish), stated that it was disappointed that the police were not doing enough to prevent illegal mining.
+**Output:** Friday May 2 La Poderosa
+
+**Input:** On Saturday, as reported by the local news site Diario Correo, a video, allegedly filmed by the criminals, started circulating on social media, showing the victims being murdered by gunshot at point-blank range.
+**Output:** Saturday Diario Correo 
+
+**Input:** Video of the victims tied up and naked was also reportedly sent to their relatives as a form of ransom prior to their deaths, which was said to have persisted for a week.
+**Output:** 
+
+**Input:** Authorities believed that the perpetrators were connected with illegal mining.
+**Output:** 
+
+**Input:** The victims, who were found "tied up in a pit," were initially dispatched to confront a gang that had ambushed the mine and taken control of it.
+**Output:** 
+
+**Input:** The attempt to regain control of the mine was unsuccessful, and they were ultimately waylayed and captured, according to BBC.
+**Output:** BBC
+
+Now, it's your turn.
+**Input:** {text}
+**Output:** 
