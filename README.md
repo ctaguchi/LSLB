@@ -1,4 +1,4 @@
-# Language Still Left Behind: Toward a Better Multilingual Machine Translation Benchmark
+# Languages Still Left Behind: Toward a Better Multilingual Machine Translation Benchmark
 This repository contains the experimental code used in the EMNLP 2025 Paper "Language Still Left Behind: Toward a Better Multilingual Machine Translation Benchmark".
 This repository roughly consists of two sections:
 - `assessment`: Data and code related to the manual re-evaluation of FLORES+.
