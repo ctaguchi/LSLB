@@ -1,0 +1,33 @@
+paradisec:
+  all: ~/LSLB/jinghpaw-mt/data/paradisec/kac.csv
+  train: ~/LSLB/jinghpaw-mt/data/paradisec/train.clean.kac
+  dev: ~/LSLB/jinghpaw-mt/data/paradisec/dev.clean.kac
+  test: ~/LSLB/jinghpaw-mt/data/paradisec/test.clean.kac
+nllb:
+  eng: ~/LSLB/jinghpaw-mt/data/nllb/NLLB.en-kac.en.filter
+  kac: ~/LSLB/jinghpaw-mt/data/nllb/NLLB.en-kac.kac.filter
+dictionary:
+  eng: ~/LSLB/jinghpaw-mt/data/dict/examples/dic4ex.en
+  kac: ~/LSLB/jinghpaw-mt/data/dict/examples/dic4ex.kac
+  jpa: ~/LSLB/jinghpaw-mt/data/dict/examples/dic4ex.ja
+headwords:
+  kac: ~/LSLB/jinghpaw-mt/data/dict/headwords/headwords.kac
+  eng: ~/LSLB/jinghpaw-mt/data/dict/headwords/headwords.en
+  jpa: ~/LSLB/jinghpaw-mt/data/dict/headwords/headwords.ja
+collocation:
+  kac: ~/LSLB/jinghpaw-mt/data/dict/collocation/collocation.kac
+  jpa: ~/LSLB/jinghpaw-mt/data/dict/collocation/collocation.ja
+textbook:
+  kac: ~/LSLB/jinghpaw-mt/data/textbook/textbook.kac
+  eng: ~/LSLB/jinghpaw-mt/data/textbook/textbook.en
+  jpa: ~/LSLB/jinghpaw-mt/data/textbook/textbook.ja
+flores:
+  dev:
+    eng: ~/LSLB/jinghpaw-mt/evaluate/dev.eng_Latn
+    kac: ~/LSLB/jinghpaw-mt/evaluate/dev.kac_Latn
+  devtest:
+    eng: ~/LSLB/jinghpaw-mt/evaluate/devtest.eng_Latn
+    kac: ~/LSLB/jinghpaw-mt/evaluate/devtest.kac_Latn
+conv:
+  eng: ~/LSLB/jinghpaw-mt/data/conversation/kac_conv.en
+  kac: ~/LSLB/jinghpaw-mt/data/conversation/kac_conv.kac

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "jinghpawnlp"
+version = "0.1.0"
+description = ""
+authors = ["chipewyan <72488381+chipewyan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.44.2"
+pandas = "^2.2.3"
+torch = "^2.4.1"
+sacrebleu = "^2.4.3"
+evaluate = "^0.4.3"
+wandb = "^0.18.1"
+nltk = "^3.9.1"
+sentencepiece = "^0.1.96"
+pytorch-warmup = "^0.1.1"
+mecab-python3 = "^1.0.9"
+mbrs = {path = "mbrs"}
+tiktoken = "^0.8.0"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
